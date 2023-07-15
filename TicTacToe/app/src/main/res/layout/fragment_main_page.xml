@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainPage">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/X_decoration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="100dp"
+        android:fontFamily="@font/baloo"
+        android:importantForAccessibility="no"
+        android:text="@string/x"
+        android:textColor="?android:textColorSecondary"
+        android:textSize="80sp"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/O_decoration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="140dp"
+        android:fontFamily="@font/baloo"
+        android:importantForAccessibility="no"
+        android:text="@string/o"
+        android:textColor="?android:textColorTertiary"
+        android:textSize="80sp"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/welcomingText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_marginBottom="75dp"
+        android:contentDescription="@string/welcome_to_tic_tac_toe"
+        android:fontFamily="@font/archivo_black"
+        android:importantForAccessibility="yes"
+        android:text="@string/welcome_to_tic_tac_toe"
+        android:textSize="25sp"
+        tools:ignore="TextContrastCheck" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="370dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_marginTop="160dp"
+        android:importantForAccessibility="no"
+        card_view:cardCornerRadius="25dp"
+        card_view:cardElevation="0dp"
+        card_view:cardMaxElevation="0dp">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/easyMode"
+            style="@style/buttonColor"
+            android:layout_width="335dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:checkable="true"
+            android:contentDescription="@string/easy_mode"
+            android:fontFamily="@font/blinker_semibold"
+            android:importantForAccessibility="yes"
+            android:insetLeft="6dp"
+            android:insetRight="6dp"
+            android:stateListAnimator="@animator/button_state_list_animator_material"
+            android:text="@string/easy_mode"
+            android:textAllCaps="false"
+            android:textSize="25sp"
+            app:backgroundTint="@android:color/transparent"
+            app:backgroundTintMode="add"
+            tools:ignore="TextContrastCheck" />
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/mediumMode"
+            style="@style/buttonColor"
+            android:layout_width="335dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="90dp"
+            android:checkable="true"
+            android:contentDescription="@string/medium_mode"
+            android:fontFamily="@font/blinker_semibold"
+            android:importantForAccessibility="yes"
+            android:insetLeft="6dp"
+            android:insetRight="6dp"
+            android:stateListAnimator="@animator/button_state_list_animator_material"
+            android:text="@string/medium_mode"
+            android:textAllCaps="false"
+            android:textSize="25sp"
+            app:backgroundTint="@android:color/transparent"
+            app:backgroundTintMode="add"
+            tools:ignore="TextContrastCheck" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/hardMode"
+            style="@style/buttonColor"
+            android:layout_width="335dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="160dp"
+            android:contentDescription="@string/hard_mode"
+            android:fontFamily="@font/blinker_semibold"
+            android:importantForAccessibility="yes"
+            android:insetLeft="6dp"
+            android:insetRight="6dp"
+            android:stateListAnimator="@animator/button_state_list_animator_material"
+            android:text="@string/hard_mode"
+            android:textAllCaps="false"
+            android:textSize="25sp"
+            app:backgroundTint="@android:color/transparent"
+            app:backgroundTintMode="add"
+            tools:ignore="TextContrastCheck" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/twoPlayerMode"
+            style="@style/buttonColor"
+            android:layout_width="335dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="230dp"
+            android:contentDescription="@string/two_player_mode"
+            android:fontFamily="@font/blinker_semibold"
+            android:importantForAccessibility="yes"
+            android:insetLeft="6dp"
+            android:insetRight="6dp"
+            android:stateListAnimator="@animator/button_state_list_animator_material"
+            android:text="@string/two_player_mode"
+            android:textAllCaps="false"
+            android:textSize="25sp"
+            app:backgroundTint="@android:color/transparent"
+            app:backgroundTintMode="add"
+            tools:ignore="TextContrastCheck" />
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+
+
+
+
+</FrameLayout>

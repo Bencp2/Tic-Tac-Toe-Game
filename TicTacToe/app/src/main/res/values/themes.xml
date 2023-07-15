@@ -1,0 +1,51 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.TicTacToe" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purpleish</item>
+        <item name="colorPrimaryVariant">@color/DarkBlue</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/LightGreen</item>
+
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <item name="cardViewStyle">@style/cardColor</item>
+
+        <!-- Customize your theme here. -->
+
+        <item name="android:textColorPrimary"> @color/black</item>
+        <item name="android:textColor"> @color/black</item>
+
+        <item name="android:windowBackground"> @drawable/lightmode_background</item>
+        <item name="android:textColorSecondary"> @color/LightRed</item>
+        <item name="android:textColorTertiary"> @color/LightBlue</item>
+    </style>
+
+
+    <style name="buttonColor">
+        <item name="android:background"> @drawable/lightmode_button</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="cardColor" parent="Widget.MaterialComponents.CardView">
+        <item name="cardBackgroundColor">@color/LightGreen</item>
+
+    </style>
+
+    <style name="xAppearance" parent="Widget.MaterialComponents.Button">
+        <item name="android:textColor"> @color/LightRed</item>
+    </style>
+
+    <style name="oAppearance" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:textColor"> @color/LightBlue</item>
+    </style>
+
+    <style name="tttBoard">
+        <item name= "android:tint">@color/black</item>
+    </style>
+
+
+
+
+</resources>

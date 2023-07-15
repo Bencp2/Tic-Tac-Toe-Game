@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Settings">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="@string/settings"
+        android:textSize="35sp" />
+
+
+    <Spinner
+        android:id="@+id/X_options"
+        style="@android:style/Widget.Material.Spinner.Underlined"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="70dp"
+        android:backgroundTint="#908E8E"
+        android:dropDownWidth="wrap_content"
+        android:duplicateParentState="false"
+        android:entries="@array/X_button_options"
+        android:hapticFeedbackEnabled="true"
+        android:layoutMode="clipBounds"
+        android:overScrollMode="never"
+        android:saveEnabled="true"
+        android:spinnerMode="dropdown"
+        android:verticalScrollbarPosition="defaultPosition" />
+
+    <Spinner
+        android:id="@+id/O_options"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="200dp"
+        android:entries="@array/O_button_options"/>
+
+    <Spinner
+        android:id="@+id/XColorOptions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="330dp"
+        android:entries="@array/X_color_options"/>
+
+    <Spinner
+        android:id="@+id/OColorOptions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="460dp"
+        android:entries="@array/O_color_options"/>
+</FrameLayout>

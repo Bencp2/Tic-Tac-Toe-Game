@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserSelection">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/modeTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_marginBottom="250dp"
+        android:fontFamily="@font/archivo_black"
+        android:importantForAccessibility="yes"
+        android:textAlignment="gravity"
+        android:textAllCaps="false"
+        android:textSize="40sp"
+        tools:ignore="TextContrastCheck"
+        tools:text="@string/easy_mode" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="365dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:importantForAccessibility="no"
+        app:cardCornerRadius="25dp"
+        app:cardElevation="0dp">
+
+        <TextView
+            android:id="@+id/selectionText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_marginBottom="50dp"
+            android:contentDescription="@string/single_player"
+            android:fontFamily="sans-serif-medium"
+            android:importantForAccessibility="yes"
+            android:text="@string/single_player"
+            android:textAlignment="gravity"
+            android:textSize="30sp"
+            tools:ignore="TextContrastCheck" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/O_option"
+            style="@style/buttonColor"
+            android:layout_width="90dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_marginStart="75dp"
+            android:layout_marginTop="30dp"
+            android:contentDescription="@string/o"
+            android:fontFamily="@font/baloo"
+            android:importantForAccessibility="yes"
+            android:stateListAnimator="@animator/button_state_list_animator_material"
+            android:text="@string/o"
+            android:textAlignment="gravity"
+            android:textSize="35sp"
+            app:backgroundTint="@android:color/transparent"
+            app:backgroundTintMode="add"
+            tools:ignore="TextContrastCheck" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/X_option"
+            style="@style/buttonColor"
+            android:layout_width="90dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="75dp"
+            android:contentDescription="@string/x"
+            android:fontFamily="@font/baloo"
+            android:importantForAccessibility="yes"
+            android:stateListAnimator="@animator/button_state_list_animator_material"
+            android:text="@string/x"
+            android:textAlignment="gravity"
+            android:textSize="35sp"
+            app:backgroundTint="@android:color/transparent"
+            app:backgroundTintMode="add"
+            tools:ignore="TextContrastCheck" />
+
+    </androidx.cardview.widget.CardView>
+
+</FrameLayout>

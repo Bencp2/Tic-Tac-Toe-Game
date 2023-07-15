@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="BlueGray">#75a3e0</color>
+
+    <color name="DarkBlue">#497aba</color>
+    <color name="DarkerBlue">#1D4F8F</color>
+    <color name="purpleish">#8699E5</color>
+    <color name="LightGreen">#D9F9DD</color>
+    <color name="LightestBlue">#D4E8FB</color>
+    <color name="LighterBlue">#A3C9ED</color>
+
+    <color name="DarkestBlue">#164168</color>
+<!--    <color name="DarkestBlue">#23537F</color>-->
+
+    <color name="Red">#FF5151</color>
+    <color name="LightRed">#DB3A3A</color>
+
+    <color name="LightBlue">#42A5F5</color>
+    <color name="lightGray">#A09D9D</color>
+
+
+    <color name="DarkPurple">#220924</color>
+    <color name="Purple">#879FFF</color>
+
+</resources>
